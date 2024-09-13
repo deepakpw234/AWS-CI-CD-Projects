@@ -3,6 +3,7 @@ import numpy as np
 import pandas as pd
 import sys
 
+
 from sklearn.preprocessing import StandardScaler
 from src.pipeline.predict_pipeline import PredictPipeline,CustomData
 from src.exception import CustomException
